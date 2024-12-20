@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cpbackround"
+    tools:context=".Suggestion">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Name Field -->
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/fieldName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:minHeight="48dp"
+                android:textSize="17sp" />
+
+            <!-- Email Field -->
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/fieldEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:minHeight="48dp"
+                android:textSize="17sp" />
+
+            <!-- Major Field -->
+
+            <TextView
+                android:id="@+id/tvMajor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
+                android:text="Major"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/fieldMajor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:minHeight="48dp"
+                android:textSize="17sp" />
+
+            <!-- Batch Field -->
+
+            <TextView
+                android:id="@+id/tvBatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
+                android:text="Batch"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/fieldBatch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext_white"
+                android:drawablePadding="8dp"
+                android:hint="Enter Batch"
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <!-- Date Field -->
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp"
+                android:text="Date"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/fieldDate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext_white"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:textColor="@color/black"
+                android:layout_below="@id/tvDate"
+                android:hint="YYYY / MM / DD"
+                android:inputType="date" />
+
+            <!-- Suggestion Field -->
+            <TextView
+                android:id="@+id/tvsuggestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suggestion"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Suggestion Input Field -->
+            <EditText
+                android:id="@+id/notesSugges"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="Enter Suggestion"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:background="@drawable/custom_edittext_white"/>
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="Submit"
+                android:background="@drawable/button_backround"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

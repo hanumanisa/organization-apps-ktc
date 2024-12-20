@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/cpbackround"
+    android:layout_height="match_parent"
+    tools:context=".ErpRegistration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- CardView for Competition -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+
+                <!-- Competition Title -->
+                <TextView
+                    android:id="@+id/competition1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ERP Simulation"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:paddingBottom="8dp" />
+
+                <!-- Image Section -->
+                <ImageView
+                    android:id="@+id/competition_erp"
+                    android:layout_width="124dp"
+                    android:layout_height="119dp"
+                    android:src="@drawable/erp"
+                    android:contentDescription="ERP Competition"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Description Title -->
+                <TextView
+                    android:id="@+id/comp_erp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Condition"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:paddingBottom="4dp" />
+
+                <!-- Description Text -->
+                <TextView
+                    android:id="@+id/description_erp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/description_erp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:justificationMode="inter_word"
+                    android:padding="16dp"
+                    android:gravity="start" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Form Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Nama -->
+                <TextView
+                    android:id="@+id/etNama"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edittext"
+                    android:text=""
+                    android:padding="12dp"
+                    android:textColor="@color/black" />
+
+                <!-- Email -->
+                <TextView
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edittext"
+                    android:text=""
+                    android:padding="12dp"
+                    android:textColor="@color/black" />
+
+                <!-- Major -->
+                <TextView
+                    android:id="@+id/etMajor"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edittext"
+                    android:text=""
+                    android:padding="12dp"
+                    android:textColor="@color/black" />
+
+                <!-- Batch -->
+                <EditText
+                    android:id="@+id/etBatch"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edittext"
+                    android:hint="Batch"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/etFee"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/custom_edittext"
+                    android:hint="Send gdrive link for proving"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:textColor="@color/black" />
+
+                <!-- Button Register -->
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_backround"
+                    android:gravity="center"
+                    android:text="Register"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "409031050550",
+    "firebase_url": "https://pumaisapps-4ba9b-default-rtdb.firebaseio.com",
+    "project_id": "pumaisapps-4ba9b",
+    "storage_bucket": "pumaisapps-4ba9b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409031050550:android:3780f72087e3f713019f97",
+        "android_client_info": {
+          "package_name": "com.example.mypumais"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU31olB7ELH9ZU6RhAEPt__gE5WQ18ZPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409031050550:android:065c3c36e6fe2ca6019f97",
+        "android_client_info": {
+          "package_name": "com.example.revisiproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU31olB7ELH9ZU6RhAEPt__gE5WQ18ZPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

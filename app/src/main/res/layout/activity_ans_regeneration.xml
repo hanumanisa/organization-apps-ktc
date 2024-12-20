@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/cpbackround"
+    android:layout_height="match_parent"
+    tools:context=".AnsRegeneration">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Nama -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/ansName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="8dp"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:text=" "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <!-- NIM -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student ID"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/ansStudentID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:minHeight="48dp"
+                android:textSize="17sp" />
+
+            <!-- Batch -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Batch"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp" />
+
+            <EditText
+                android:id="@+id/ansBatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:hint="Input Batch"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:inputType="number"
+                android:minHeight="48dp" />
+
+            <!-- Phone Number -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone Number"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp" />
+
+            <EditText
+                android:id="@+id/ansPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:hint="Input Phone Number"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:inputType="phone"
+                android:minHeight="48dp" />
+
+            <!-- Tanggal Lahir -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp" />
+
+            <EditText
+                android:id="@+id/ansBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_edittext"
+                android:focusable="false"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:hint="Input Date of Birth"
+                android:minHeight="48dp" />
+
+            <!-- CV -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload CV"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btnCvAns"
+                android:background="@drawable/button_backround"
+                android:layout_height="wrap_content"
+                android:text="Upload CV (PDF)"
+                android:textColor="@android:color/white" />
+
+            <!-- Personal Statement -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Personal Statement"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:paddingTop="16dp"
+                android:paddingBottom="4dp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnPsAns"
+                android:background="@drawable/button_backround"
+                android:text="Upload Personal Statement (PDF)"
+                android:textColor="@android:color/white" />
+
+            <!-- Alasan Memilih Divisi -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reason Choose Division"
+                android:textSize="16sp"
+                android:paddingTop="16dp"
+                android:textColor="@color/black"
+                android:paddingBottom="4dp" />
+
+            <EditText
+                android:id="@+id/ansReason"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:hint="Input Reasons"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:drawablePadding="8dp"
+                android:padding="12dp"
+                android:background="@drawable/custom_edittext"/>
+
+            <!-- Submit Button -->
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btnSubmitans"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Submit"
+                android:background="@drawable/button_backround"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
+
+
+
+

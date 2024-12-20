@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RevisiProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".MtddAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".RmAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".CommAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".RndAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".AnsAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".BodAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".RegenerationAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ExhibitionAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".CompsphereAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".MenuAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".SuggestionAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".AwardingAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".CompetititonAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".SeminarAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ElectionAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".RmRegister"
+            android:exported="false" />
+        <activity
+            android:name=".MTDDRegeneration"
+            android:exported="false" />
+        <activity
+            android:name=".CommunicationRegeneration"
+            android:exported="false" />
+        <activity
+            android:name=".RnDRegeneration"
+            android:exported="false" />
+        <activity
+            android:name=".AnsRegeneration"
+            android:exported="false" />
+        <activity
+            android:name=".BodRegeneration"
+            android:exported="false" />
+        <activity
+            android:name=".Editprofile"
+            android:exported="false" />
+        <activity
+            android:name=".ProgrammingrushRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".UIUXCompetititon"
+            android:exported="false" />
+        <activity
+            android:name=".ErpRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".CompsphereSeminar"
+            android:exported="false" />
+        <activity
+            android:name=".CompetititonCompsphere"
+            android:exported="false" />
+        <activity
+            android:name=".AwardingCompsphere"
+            android:exported="false" />
+        <activity
+            android:name=".ExhibitionCompsphere"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Election"
+            android:exported="false" />
+        <activity
+            android:name=".Compsphere"
+            android:exported="false" />
+        <activity
+            android:name=".Suggestion"
+            android:exported="false" />
+        <activity
+            android:name=".Regeneration"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

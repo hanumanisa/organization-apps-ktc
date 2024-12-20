@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cpbackround"
+    tools:context=".Election">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Chairperson 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/navibackround"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/chairperson1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Candidate CP VCP 1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:paddingBottom="8dp" />
+
+                <ImageView
+                    android:id="@+id/chairperson1_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/cp1"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/chairperson1_vision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Visi"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="16dp" />
+
+                <TextView
+                    android:id="@+id/chairperson1_vision_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="To be a home for all students, facilitating the growth of individuals and a community that is characterized by strong values, innovation, and active contributions to the advancement of the campus and society."
+                    android:paddingTop="8dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/chairperson1_mission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Misi"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="16dp" />
+
+                <TextView
+                    android:id="@+id/chairperson1_mission_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. To enhance the quality of programs that are relevant to student needs, such as leadership training, soft skills development, and social activities.\n\n2. To build strong networks with various parties, both within and outside the campus, to expand opportunities for member development.\n\n3. To create an inclusive, democratic organizational environment that upholds the values of togetherness."
+                    android:paddingTop="8dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnCp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vote Now"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_backround"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+
+            <!-- Chairperson 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@drawable/navibackround">
+
+                <TextView
+                    android:id="@+id/chairperson2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Candidate CP VCP 2"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:paddingBottom="8dp" />
+
+                <ImageView
+                    android:id="@+id/chairperson2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/cp2"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/chairperson2_vision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Visi"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="16dp" />
+
+                <TextView
+                    android:id="@+id/chairperson2_vision_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="To position this organization as a spearhead in bringing about positive change on campus, through programs that have a direct impact on improving the quality of life for students and the surrounding community."
+                    android:paddingTop="8dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/chairperson2_mission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Misi"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:paddingTop="16dp" />
+
+                <TextView
+                    android:id="@+id/chairperson2_mission_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. To implement research-based and innovative programs to address the challenges faced by students and society.\n\n2. To raise awareness of social and environmental issues and encourage members to actively participate in social activities.\n\n3. To strengthen the positive image of the organization in the eyes of all academic community members and the wider community."
+                    android:paddingTop="8dp"
+                    android:lineSpacingExtra="4dp"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnCp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vote Now"
+                    android:textColor="#FFFFFF"
+                    android:background="@drawable/button_backround"
+                    android:layout_marginTop="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

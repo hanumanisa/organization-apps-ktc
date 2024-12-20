@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackk"
+    tools:context=".CompsphereSeminar">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="376dp"
+        android:layout_height="528dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="507dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compsphere Register"
+                android:textAlignment="center"
+                android:textColor="@color/blue"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <!-- Nama -->
+            <TextView
+                android:id="@+id/etNama"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:text=""
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <!-- Email -->
+            <TextView
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:text=""
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <!-- Major -->
+            <TextView
+                android:id="@+id/etMajor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:text=""
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <!-- Batch -->
+            <EditText
+                android:id="@+id/etBatch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:hint="Batch"
+                android:inputType="number"
+                android:padding="12dp"
+                android:textColor="@color/black" />
+
+            <!-- Button Register -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_backround"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

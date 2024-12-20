@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">RevisiProject</string>
+
+    <string name="description_erp">
+    1. Participants individual or team with a maximum of 3 members.\n
+    2. Develop or modify an ERP system according to the competition theme.\n
+    3. Submit a report, documentation, and ERP prototype.\n
+    4. Judging: Functionality, features, ease of use, and theme alignment.\n
+    5. Registration fee Rp 50.000/person or team. Send it to:\n
+       HANUM ANISA RAHMA\n
+       BANK MANDIRI\n
+       1800012790467
+</string>
+
+    <string name="description_uiux">
+    1. Participants individual or team with a maximum of 3 members.\n
+    2. Design UI/UX for an app/website according to the competition theme.\n
+    3. Submit the design in PNG/JPG format or design files (Figma/Sketch) along with an interactive prototype.\n
+    4. Judging: Creativity, aesthetics, functionality, and user experience.\n
+    5. Registration fee Rp 50.000/person or team. Send it to:\n
+       HANUM ANISA RAHMA\n
+       BANK MANDIRI\n
+       1800012790467
+
+
+</string>
+
+    <string name="description_programming">
+    1. Participants individual or team with a maximum of 3 members.\n
+    2. Complete the programming challenge within 3 hours.\n
+    3. Submissions are automatically closed after 3 hours.\n
+    4. udging: Correct solution, code efficiency, and choice of algorithm.\n
+    5. Registration fee Rp 70.000/person or team. Send it to:\n
+       HANUM ANISA RAHMA\n
+       BANK MANDIRI\n
+       1800012790467
+</string>
+
+
+</resources>

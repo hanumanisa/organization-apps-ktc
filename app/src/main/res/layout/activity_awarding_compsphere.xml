@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cpbackround"
+    tools:context=".AwardingCompsphere">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"> <!-- Tambahan padding bawah -->
+
+            <!-- Kategori 1: Most Favorite Lecturer -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/navibackround"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/category1_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Most Favorite Lecturer"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:paddingBottom="8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Lecturer 1 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/lecturer1_photo"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/sirroni" />
+
+                        <Button
+                            android:id="@+id/lecturer1_vote_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VOTE"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_backround"
+                            android:layout_marginTop="16dp" />
+                    </LinearLayout>
+
+                    <!-- Lecturer 2 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/lecturer2_photo"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/sirgenta" />
+
+                        <Button
+                            android:id="@+id/lecturer2_vote_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VOTE"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_backround"
+                            android:layout_marginTop="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Kategori 2: Most Achievable Student -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/navibackround"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/category2_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Most Achievable Student"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:paddingBottom="8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Student 1 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/student1_photo"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/kajaya" />
+
+                        <Button
+                            android:id="@+id/student1_vote_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VOTE"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_backround"
+                            android:layout_marginTop="16dp" />
+                    </LinearLayout>
+
+                    <!-- Student 2 -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/student2_photo"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/kajoseph" />
+
+                        <Button
+                            android:id="@+id/student2_vote_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VOTE"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_backround"
+                            android:layout_marginTop="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Kategori 3: Most Favorite Project -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/navibackround"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/category3_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Most Favorite Project"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:paddingBottom="8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:id="@+id/project1_photo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/dreamscape" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="8dp">
+
+                        <TextView
+                            android:id="@+id/project1_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="DREAMSCAPE AR"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/project1_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DreamScape AR offers a unique sleep therapy experience using cutting-edge augmented reality technology." />
+
+                        <Button
+                            android:id="@+id/project1_vote_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VOTE"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_backround"
+                            android:layout_marginTop="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/project2_photo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/techtalent" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="8dp">
+
+                        <TextView
+                            android:id="@+id/project2_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:text="TECH TALENT ACADEMY"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/project2_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A mobile crossplatform education app providing courses in digital technology field with AI powered features such as interview simulation, chatbot, and create roadmap from hobby." />
+
+                        <Button
+                            android:id="@+id/project2_vote_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VOTE"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_backround"
+                            android:layout_marginTop="16dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
